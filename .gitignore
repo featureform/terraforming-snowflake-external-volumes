@@ -19,3 +19,34 @@ terraform.tfvars
 # It can be included in version control, but may be ignored in some workflows
 # Uncomment the following line if you want to ignore it
 .terraform.lock.hcl
+
+# Sensitive files (e.g., key files)
+*.pem
+*.key
+*.crt
+*.cer
+
+# Ignore Python virtual environment directories (if any)
+venv/
+.venv/
+
+# Ignore AWS CLI credentials and configuration files
+.aws/
+
+# Ignore Snowflake private key files
+*.p8
+
+# Ignore local execution logs
+*.log
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore macOS Finder files
+.DS_Store
+
+# Ignore Linux temporary files
+*~
