@@ -1,0 +1,21 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash log files
+crash.log
+
+# Terraform variable files containing sensitive data
+terraform.tfvars
+*.tfvars
+
+# Terraform plan files
+*.tfplan
+
+# Directory for Terraform's local module cache
+.terraform/
+
+# .terraform.lock.hcl keeps track of module and provider versions
+# It can be included in version control, but may be ignored in some workflows
+# Uncomment the following line if you want to ignore it
+.terraform.lock.hcl
